@@ -1,0 +1,117 @@
+DCTG
+   1 0  1 Contingência de 839 para 1047
+CIRD  839  1047   1
+FCAS
+   2 0  1 Contingência de 839 para 2458
+CIRD  839  2458   1
+FCAS
+   3 0  1 Contingência de 856 para 933
+CIRD  856   933   1
+FCAS
+   4 0  1 Contingência de 856 para 1060
+CIRD  856  1060   1
+FCAS
+   5 0  1 Contingência de 896 para 897
+CIRD  896   897   1
+FCAS
+   6 0  1 Contingência de 933 para 895
+CIRD  933   895   1
+FCAS
+   7 0  1 Contingência de 933 para 955
+CIRD  933   955   1
+FCAS
+   8 0  1 Contingência de 933 para 959
+CIRD  933   959   1
+FCAS
+   9 0  1 Contingência de 934 para 960
+CIRD  934   960   1
+FCAS
+  10 0  1 Contingência de 934 para 1047
+CIRD  934  1047   1
+FCAS
+  11 0  1 Contingência de 938 para 946
+CIRD  938   946   1
+FCAS
+  12 0  1 Contingência de 938 para 955
+CIRD  938   955   1
+FCAS
+  13 0  1 Contingência de 938 para 959
+CIRD  938   959   1
+FCAS
+  14 0  1 Contingência de 947 para 939
+CIRD  947   939   1
+FCAS
+  15 0  1 Contingência de 955 para 946
+CIRD  955   946   1
+FCAS
+  16 0  1 Contingência de 955 para 964
+CIRD  955   964   1
+FCAS
+  17 0  1 Contingência de 955 para 979
+CIRD  955   979   1
+FCAS
+  18 0  1 Contingência de 959 para 895
+CIRD  959   895   1
+FCAS
+  19 0  1 Contingência de 960 para 1015
+CIRD  960  1015   1
+FCAS
+  20 0  1 Contingência de 964 para 976
+CIRD  964   976   1
+FCAS
+  21 0  1 Contingência de 965 para 1057
+CIRD  965  1057   1
+FCAS
+  22 0  1 Contingência de 976 para 979
+CIRD  976   979   1
+FCAS
+  23 0  1 Contingência de 995 para 964
+CIRD  995   964   1
+FCAS
+  24 0  1 Contingência de 995 para 979
+CIRD  995   979   1
+FCAS
+  25 0  1 Contingência de 995 para 1030
+CIRD  995  1030   1
+FCAS
+  26 0  1 Contingência de 995 para 1060
+CIRD  995  1060   1
+FCAS
+  27 0  1 Contingência de 999 para 896
+CIRD  999   896   1
+FCAS
+  28 0  1 Contingência de 999 para 933
+CIRD  999   933   1
+FCAS
+  29 0  1 Contingência de 999 para 1060
+CIRD  999  1060   1
+FCAS
+  30 0  1 Contingência de 1010 para 947
+CIRD 1010   947   1
+FCAS
+  31 0  1 Contingência de 1015 para 939
+CIRD 1015   939   1
+FCAS
+  32 0  1 Contingência de 1030 para 955
+CIRD 1030   955   1
+FCAS
+  33 0  1 Contingência de 1047 para 1069
+CIRD 1047  1069   1
+FCAS
+  34 0  1 Contingência de 1057 para 1010
+CIRD 1057  1010   1
+FCAS
+  35 0  1 Contingência de 1060 para 897
+CIRD 1060   897   1
+FCAS
+  36 0  1 Contingência de 1069 para 1041
+CIRD 1069  1041   1
+FCAS
+  37 0  1 Contingência de 1041 para 963
+CIRD 1041   963   1
+FCAS
+  38 0  1 Contingência de 963 para 965
+CIRD  963   965   1
+FCAS
+99999
+FIM

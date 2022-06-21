@@ -1,0 +1,47 @@
+CEPEL - CENTRO DE PESQUISAS DE ENERGIA ELETRICA - PROGRAMA DE ANALISE DE REDES - V11.05.05                                 PAG.   1
+
+ Caso_Base_Leonardo_Confiabilidade_Segunda_Ordem                                 
+ RELATORIO DE GERADOR * AREA   1 *                                  525
+
+ X---------------------X-----------X---------------------------X---------------------------X-------X-----------X-----X---X
+           BARRA           TENSAO           GER  MW                    GER  Mvar              GER   FATOR PART. BARRA
+  NUM.      NOME     TP  MOD   ANG     MIN     MAX    ATUAL        MIN     MAX    ATUAL       MVA   GER   EQV % CONT. EST
+ X-----X------------X--X-----X-----X-------X-------X-----------X-------X-------X-----------X-------X-----X-----X-----X---X
+
+    856 SEGRED-PR525  1 1.018  16.6     0.0  1260.0   705.6      -465.0   465.0   -86.9       710.9   0.0   0.0   856 LIG
+    897 SCAXIA-PR525  1 1.015  25.0     0.0  1240.0   693.6      -465.0   465.0   -27.8       694.2   0.0   0.0   897 LIG
+    933 AREIA--PR525  1 1.012  13.0     0.0  1676.0   934.4      -800.0   800.0  -187.0       952.9   0.0   0.0   933 LIG
+    955 CNOVOS-SC525  2 1.010  -0.0   -66.5  1760.0   844.1      -450.0   450.0  -237.5       876.8   0.0   0.0   955 LIG
+    995 ITA-----0425  1 1.020   3.3     0.0  1450.0   809.6      -580.0   580.0   -40.6       810.6   0.0   0.0   995 LIG
+   1030 MACHAD-SC525  1 1.016   1.6     0.0  1140.0   631.9      -570.0   570.0    -8.1       632.0   0.0   0.0  1030 LIG
+   1060 SSANTI-PR525  1 1.023  17.7     0.0  1420.0   792.0      -525.0   525.0    46.6       793.4   0.0   0.0  1060 LIG
+
+
+
+
+ RELATORIO DE GERADOR * AREA   2 *                                  230
+
+ X---------------------X-----------X---------------------------X---------------------------X-------X-----------X-----X---X
+           BARRA           TENSAO           GER  MW                    GER  Mvar              GER   FATOR PART. BARRA
+  NUM.      NOME     TP  MOD   ANG     MIN     MAX    ATUAL        MIN     MAX    ATUAL       MVA   GER   EQV % CONT. EST
+ X-----X------------X--X-----X-----X-------X-------X-----------X-------X-------X-----------X-------X-----X-----X-----X---X
+
+    963 MCLARO-RS230  1 1.000  -7.5     0.0   360.0   129.6       -80.0    80.0   -64.7       144.9   0.0   0.0   963 LIG
+   1010 JLAC-B-SC230  1 1.020  -5.3     0.0 99999.0   395.2      -220.0   220.0    29.8       396.3   0.0   0.0  1010 LIG
+   1041 PFUNDO-RS230  1 1.000   2.5     0.0   226.0   128.8      -130.0   130.0    18.8       130.2   0.0   0.0  1041 LIG
+   1047 SOSORIO-230   1 1.020  22.3     0.0  1078.0   617.6      -450.0   450.0     8.7       617.7   0.0   0.0  1047 LIG
+
+
+ MONITORACAO DE TENSAO
+
+Não foram encontradas violações de tensao entre as barras monitoradas.
+
+
+ MONITORACAO DE GERACAO REATIVA
+
+Não foram encontradas violações de geracao entre as barras monitoradas.
+
+
+ MONITORACAO DE FLUXOS CORRIGIDOS PELA TENSAO - MFCT
+
+ Não foram encontradas violações de fluxo entre os circuitos monitorados
