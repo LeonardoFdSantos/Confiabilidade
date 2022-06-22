@@ -21,10 +21,18 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{PIOTROWSKI2021}
-L.~J. PIOTROWSKI, D.~FRANCHI, M.~SPERANDIO, and F.~A. FARRET, ``Análise de
-  expansão do sistema de transmissão sul brasileiro de 32 barras.''\hskip 1em
-  plus 0.5em minus 0.4em\relax Seminar on Power Electronics and Control -
-  SEPOC, 5 2021, pp. -----.
+\bibitem{Lazari}
+G.~M. Lazari, L.~H. Medeiros, N.~D. Barth, R.~Biazzi, and M.~Sperandio,
+  ``Estudo de confiabilidade para um sistema de potÊncia atravÉs da
+  inserÇÃo de um parque eÓlico.''
+
+\bibitem{Armando2022}
+A.~M.~L. da~Silva, ``4. análise de confiabilidade em sistemas de potência,''
+  2022.
+
+\bibitem{Cassula2003}
+A.~M. Cassula, A.~M. L.~D. Silva, L.~A.~F. Manso, and R.~Billinton,
+  ``AvaliaÇÃo da confiabilidade em sistemas de distribuiÇÃo considerando
+  falhas de geraÇÃo e transmissÃo,'' pp. 262--271, 2003.
 
 \end{thebibliography}
