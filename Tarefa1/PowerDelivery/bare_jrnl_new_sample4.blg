@@ -10,6 +10,10 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: LeonardoReferencias.bib
+Warning--entry type for "Cabral2020" isn't style-file defined
+--line 8 of file LeonardoReferencias.bib
+Warning--entry type for "Guilherme1997" isn't style-file defined
+--line 19 of file LeonardoReferencias.bib
 Warning--entry type for "Armando2022" isn't style-file defined
 --line 48 of file LeonardoReferencias.bib
 Warning--entry type for "Lazari" isn't style-file defined
@@ -21,45 +25,45 @@ Warning--entry type for "Cassula2003" isn't style-file defined
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 3 entries,
+You've used 5 entries,
             4087 wiz_defined-function locations,
-            836 strings with 7825 characters,
-and the built_in function-call counts, 1696 in all, are:
-= -- 106
-> -- 49
-< -- 8
-+ -- 26
-- -- 10
-* -- 79
-:= -- 250
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 3
-chr.to.int$ -- 21
-cite$ -- 3
-duplicate$ -- 124
-empty$ -- 144
-format.name$ -- 12
-if$ -- 373
+            847 strings with 8143 characters,
+and the built_in function-call counts, 2635 in all, are:
+= -- 176
+> -- 66
+< -- 13
++ -- 35
+- -- 13
+* -- 111
+:= -- 395
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 33
+cite$ -- 5
+duplicate$ -- 199
+empty$ -- 232
+format.name$ -- 16
+if$ -- 591
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 29
-newline$ -- 32
-num.names$ -- 3
-pop$ -- 85
+int.to.str$ -- 5
+missing$ -- 45
+newline$ -- 38
+num.names$ -- 5
+pop$ -- 131
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 124
+skip$ -- 199
 stack$ -- 0
-substring$ -- 52
-swap$ -- 86
-text.length$ -- 1
+substring$ -- 81
+swap$ -- 136
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 3
+type$ -- 5
 warning$ -- 0
-while$ -- 6
-width$ -- 4
-write$ -- 43
-(There were 3 warnings)
+while$ -- 11
+width$ -- 6
+write$ -- 58
+(There were 5 warnings)

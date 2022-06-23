@@ -43,7 +43,7 @@
 
 \title{Confiabilidade de Linhas de Transmissão\\ Utilizando Sistema Sul Brasileiro \\ com 32 Barras}
 
-\author{Leonardo Felipe da Silva dos Santos,~\\ \IEEEmembership{Centro de Excelência em Energia e Sistemas de Potência (CEESP),\\ Programa de Pós-Graduação em Engenharia Elétrica,~\\ Universidade Federal de Santa Maria \\ Santa Maria, Brasil \\ leonardo.santos@acad.ufsm.br}}
+\author{Leonardo Felipe da Silva dos Santos,~\\ \IEEEmembership{Centro de Excelência em Energia e Sistemas de Potência (CEESP),\\ Programa de Pós Graduação em Engenharia Elétrica,~\\ Universidade Federal de Santa Maria \\ Santa Maria, Brasil \\ leonardo.santos@acad.ufsm.br}}
         % <-this % stops a space
 % \thanks{This paper was produced by the IEEE Publication Technology Group. They are in Piscataway, NJ.}% <-this % stops a space
 % \thanks{Manuscript received April 19, 2021; revised August 16, 2021.}}
@@ -100,8 +100,8 @@ Já quem faz a operação do sistema nacional é o operador naciona do sistema e
 
 \subitem{Níveis Hierárquicos}
 
-A análise de confiabilidade pode abranger três níveis
-hierárquicos, conforme apresentado na Figura \ref{figura: Niveis_Hierarquicos} \cite{Cassula2003}:
+A análise de confiabilidade pode abranger três níveis hierárquicos, conforme apresentado na Figura \ref{figura: Niveis_Hierarquicos} \cite{Cassula2003}:
+
 \begin{enumerate}
 	\item Nível Hierárquico 0 (NH0): Abrange o estudo de confiabilidade ligado ao sistema energético isolado aos demais, normalmente se analisa a confiabilidade de projeto e funcionamento;
 	\item Nível Hierárquico 1 (NH1): Abrange o estudo de confiabilidade ligado a geração de energia;
@@ -155,7 +155,7 @@ Assim como o nível de carregamento foi definido em cada área do sistema, o ní
 	\end{tabularx}
 \end{table}
 
-Com a definição das tabelas \ref{tabela: Nivel_Carregamento} e \ref{tabela: Nivel_Geracao}, pode-se utilizar o \textbf{ANAREDE} para configuração do sistema conforme as tabela, após carregamento do projeto e configuração das opções das tabelas, o esquemático do sistema STSB-32 foi disposto na Figura \ref{figura: Sistema_STSB_32}, qual mostra os esquemático completo no \textbf{ANAREDE}.
+Com a definição das tabelas \ref{tabela: Nivel_Carregamento} e \ref{tabela: Nivel_Geracao}, pode-se utilizar o ANAREDE\cite{Cabral2020} para configuração do sistema conforme as tabela, após carregamento do projeto e configuração das opções das tabelas, o esquemático do sistema STSB-32 foi disposto na Figura \ref{figura: Sistema_STSB_32}, qual mostra os esquemático completo no ANAREDE.
 
 \begin{figure}[h]
 	\includegraphics[width=0.5\textwidth]{Figuras/STSB-32.png}
@@ -166,10 +166,10 @@ Com a definição das tabelas \ref{tabela: Nivel_Carregamento} e \ref{tabela: Ni
 
 Sendo o sistema separado por tensão, os níveis de tensão são de 230 kV, na cor verde e 525 kV na cor vermelha, esse sistema também é dividido em três áreas. A área número 1 é a parte classificada em 525 kV, a área 2 é a parte do sistema em 230 kV e a área 3 é a área de importação de energia da região sudeste do Brasil.
 
-Para a utilização deste tipo de análise, foi dada a tabela \ref{tabela: Probabilidade_Linhas} com os valores de confiabilidade em cada linha, assim podendo analisar as tabelas de contingências com o diagrama de cortes mínimos.
+Para a utilização deste tipo de análise, foi dada a tabela \ref{tabela: Probabilidade_Linhas} com os valores de confiabilidade em cada linha, assim podendo analisar as tabelas de contingências com o diagrama de cortes mínimos\cite{Guilherme1997}.
 
 \begin{table}[!ht]
-	\caption{Probabilidade das Linhas STSB-32}
+	\caption{Probabilidade das Linhas STSB-32.}
 	\label{tabela: Probabilidade_Linhas}
 %	\scalefont{0.8}
 	\centering
@@ -225,7 +225,7 @@ Utilizando a tabela \ref{tabela: Nivel_Carregamento} e \ref{tabela: Nivel_Geraca
 A utilização da confiabilidade e com uma lista de contingências da primeira ordem qual ele retornou o relatório de violação N-1 da tabela \ref{tabela: N_1}.
 
 \begin{table}[!ht]
-	\caption{Relatório de Violação N-1 ANAREDE.}
+	\caption{Relatório de Violação N-1 retirado do ANAREDE.}
 	\label{tabela: N_1}
 	\scalefont{0.7}
 	\centering
@@ -245,7 +245,7 @@ Assim para o caso N-1, temos a tabela \ref{tabela: N_1} qual apresenta a conting
 
 
 \begin{table}[!ht]
-	\caption{Relatório de Violação N-2 ANAREDE.}
+	\caption{Relatório de Violação N-2 retirado do ANAREDE.}
 	\label{tabela: N_2}
 	\scalefont{0.7}
 	\centering
@@ -307,10 +307,10 @@ Logo definir a confiabilidade do sistema é 1 menos o produto da probabilidade d
 	\label{equacao: Confiabilidade_Estrutural_Paralelo}
 \end{equation}
 
-Utilizando essas equações temos os equivalentes do relatório de violação N-2 da Tabela \ref{tabela: N_2}, utilizando primeiramente a equação \ref{equacao: Confiabilidade_Estrutural_Paralelo}, após essa análise junta-se o relatório N-1 com o equivalente do N-2 Tabela III.
+Utilizando essas equações temos os equivalentes do relatório de violação N-2 da Tabela \ref{tabela: N_2}, utilizando primeiramente a equação \ref{equacao: Confiabilidade_Estrutural_Paralelo}, após essa análise junta-se o relatório N-1 com o equivalente do N-2 da Tabela \ref{tabela: Equivalente_N_2}.
 
 \begin{table}[!ht]
-	\caption{Equivalentes de N-2 ANAREDE.}
+	\caption{Equivalentes de N-2 calculado.}
 	\label{tabela: Equivalente_N_2}
 	\centering
 	\scalefont{0.7}
@@ -399,7 +399,7 @@ Assim com o equivalente de cada uma das linhas de transmissão feitos vamos calc
 			542 & 955 & 964 & 1041 & 963 & 9.981009E-07 & 9.999990E-01 \\ \hline
 			638 & 999 & 896 & 1060 & 897 & 1.054729E-06 & 9.999989E-01 \\ \hline
 			Total & ~ & ~ & ~ & ~ & 5.45274E-03 & 9.94547E-01 \\ \hline
-			Total (\%) & ~ & ~ & ~ & ~ & 0.005452738 & 0.994547262 \\ \hline
+			Total (\%) & ~ & ~ & ~ & ~ & 0.5452738\% & 99.4547262\% \\ \hline
 	\end{tabularx}
 \end{table}
 
@@ -415,7 +415,7 @@ Assim com as contingências apresentadas em N-1 Tabela \ref{tabela: N_1} e N-2 T
 	\begin{tabularx}{.5\textwidth}{|Y|Y|Y|Y|}
 		\hline
 		Total & 5.45274E-03 & 9.94547E-01 & 1.00000E+00 \\ \hline
-		Total (\%) & 0.005452738 & 0.994547262 & 1 \\ \hline
+		Total (\%) & 0.54527\% & 99,45473\% & 100\% \\ \hline
 	\end{tabularx}
 \end{table}
 
